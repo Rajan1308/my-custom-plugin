@@ -30,5 +30,6 @@ class Plugin {
 		define( 'MyCustomPlugin_PLUGIN_VERSION', '1.0.0' );
 
 		new Assets();
+		new Patterns();
 	}
 }

@@ -21,6 +21,8 @@
  * Bootstrap the plugin.
  */
 require_once 'vendor/autoload.php';
+require_once untrailingslashit( plugin_dir_path( __FILE__ ) ) . '/inc/custom-functions.php';
+
 
 use MyCustomPlugin\Plugin;
 
